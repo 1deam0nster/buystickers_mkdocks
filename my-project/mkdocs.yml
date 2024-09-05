@@ -1,0 +1,66 @@
+site_name: buystickers.ru
+site_url: https://buystickers.ru
+
+nav:
+  - 'Материал самоклеящихся этикеток': 
+    - 'Глянцевая пленка': 'materials/1.md'
+    - 'Полуглянцевая пленка': 'materials/2.md'
+    - 'Прозрачная пленка': 'materials/3.md'
+    - 'Термобумага': 'materials/4.md'
+    - 'Глянцевая белая пленка': 'materials/5.md'
+    - 'Металлизированная пленка': 'materials/6.md'
+  - 'Виды печати самоклеящихся этикеток':
+    - 'Высокая печать': 'types_of_prints/1.md'
+    - 'Шелкография': 'types_of_prints/2.md'
+    - 'Цифровая печать': 'types_of_prints/3.md'
+    - 'Печать металлизированными красками': 'types_of_prints/4.md'
+  - 'Виды продукции': type_of_production.md
+  - 'Виды отделки':
+    - 'Тиснение': 'types_of_finishing/1.md'
+    - 'Выборочное УФ лакирование': 'types_of_finishing/2.md'
+    - 'Конгрев': 'types_of_finishing/3.md'
+    - 'Ламинация': 'types_of_finishing/4.md'
+    - '3D лак': 'types_of_finishing/5.md'
+  - 'Контакты': contacts.md
+  - 'Оплата и доставка': pay_and_delivery.md
+    
+
+plugins:
+  # - optimize
+  - search
+  - meta-descriptions
+  - glightbox:
+      touchNavigation: true
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  font:
+    text: Roboto
+  palette:
+    primary: black
+  features:
+    # - navigation.expand
+    # - navigation.top
+    # - navigation.tabs
+    - header.autohide
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/phone 
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+    - icon: fontawesome/solid/envelope 
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+    - icon: fontawesome/solid/location-dot 
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+
+copyright: buystickers.ru &copy; 2024 
