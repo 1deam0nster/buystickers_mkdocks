@@ -32,6 +32,12 @@ plugins:
   - glightbox:
       touchNavigation: true
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      
 theme:
   name: material
   custom_dir: overrides
@@ -39,7 +45,7 @@ theme:
   font:
     text: Roboto
   palette:
-    primary: black
+    primary: indigo
   features:
     # - navigation.expand
     # - navigation.top
@@ -54,13 +60,13 @@ extra:
   generator: false
   social:
     - icon: fontawesome/solid/phone 
-      link: https://fosstodon.org/@squidfunk
-      name: squidfunk on Fosstodon
+      link: tel:+79103331155
+      name: Позвонить
     - icon: fontawesome/solid/envelope 
-      link: https://fosstodon.org/@squidfunk
-      name: squidfunk on Fosstodon
+      link: https://buystickers.ru/contacts/
+      name: Почта
     - icon: fontawesome/solid/location-dot 
-      link: https://fosstodon.org/@squidfunk
-      name: squidfunk on Fosstodon
+      link: https://buystickers.ru/contacts/
+      name: Контакты
 
 copyright: buystickers.ru &copy; 2024 
