@@ -81,7 +81,7 @@ extra:
       link: tel:+79103331155
       name: Позвонить
     - icon: fontawesome/solid/envelope 
-      link: https://buystickers.ru/contacts/
+      link: mailto:toppress-zakaz@yandex.ru
       name: Почта
     - icon: fontawesome/solid/location-dot 
       link: https://buystickers.ru/contacts/
