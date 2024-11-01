@@ -2,6 +2,7 @@ site_name: buystickers.ru
 site_url: https://buystickers.ru
 
 nav:
+  - 'Главная': 'index.md'
   - 'Материал самоклеящихся этикеток': 
     - 'Глянцевая пленка': 'materials/1.md'
     - 'Полуглянцевая пленка': 'materials/2.md'
@@ -14,7 +15,11 @@ nav:
     - 'Шелкография': 'types_of_prints/2.md'
     - 'Цифровая печать': 'types_of_prints/3.md'
     - 'Печать металлизированными красками': 'types_of_prints/4.md'
-  - 'Виды продукции': type_of_production.md
+  - 'Виды продукции':
+    - 'Этикетки для мясных продуктов': 'type_of_production/1.md'
+    - 'Этикетки для бытовой химии': 'type_of_production/2.md'
+    - 'Стикеры для специй': 'type_of_production/3.md'
+    - 'Этикетки для фармацевтики': 'type_of_production/4.md'
   - 'Виды отделки':
     - 'Тиснение': 'types_of_finishing/1.md'
     - 'Выборочное УФ лакирование': 'types_of_finishing/2.md'
@@ -31,13 +36,20 @@ plugins:
   - meta-descriptions
   - glightbox:
       touchNavigation: true
-
+  
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
 theme:
   name: material
   custom_dir: overrides
@@ -56,6 +68,12 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+  
 extra:
   generator: false
   social:

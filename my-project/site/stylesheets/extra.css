@@ -1,0 +1,117 @@
+.padding {
+  margin-top: 50px;
+}
+
+/* Контейнер кнопок */
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Отступы между кнопками */
+  justify-content: space-between;
+}
+
+/* Кнопки на всю ширину колонки */
+.button-item {
+  flex: 1 1 20%; /* Пять колонок, если пространство позволяет */
+  max-width: 40%;
+  box-sizing: border-box;
+}
+
+/* Стили для кнопок */
+.btn {
+  font-family: var(--mdb-btn-font-family);
+  line-height: 1.6;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white !important;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Запрещаем перенос текста на новую строку */
+}
+
+/* Индивидуальные цвета для кнопок */
+.phone_btn { background-color: #ff6e42; }
+.whatsapp_btn { background-color: #25d366; }
+.send_btn { background-color: #4051b5; }
+.online_btn { background-color: #4051b5; }
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Галерея для десктопа */
+.gallery {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex: 1 1 20%; /* Пять колонок на десктопе */
+  max-width: 20%;
+  text-align: center;
+}
+
+/* Слайдер для мобильных устройств */
+.mobile-slider {
+  display: none; /* Прячем слайдер на десктопе */
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slider-wrapper {
+  display: flex;
+  transform: translateX(0%);
+  transition: transform 0.5s ease;
+}
+
+.slider-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.slider-prev, .slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.slider-prev {
+  left: 10px;
+}
+
+.slider-next {
+  right: 10px;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+
+  .button-item {
+    flex: 1 1 100%; /* Одна кнопка на всю ширину на мобильных */
+    max-width: 100%;
+  }
+
+  .gallery {
+    display: none; /* Прячем галерею на мобильных устройствах */
+  }
+  
+  .mobile-slider {
+    display: block; /* Показываем слайдер на мобильных */
+  }
+}
