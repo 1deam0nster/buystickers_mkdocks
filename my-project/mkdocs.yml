@@ -1,4 +1,4 @@
-site_name: buystickers.ru
+site_name: Buystickers.ru
 site_url: https://buystickers.ru
 
 nav:
@@ -20,6 +20,8 @@ nav:
     - 'Этикетки для бытовой химии': 'type_of_production/2.md'
     - 'Стикеры для специй': 'type_of_production/3.md'
     - 'Этикетки для фармацевтики': 'type_of_production/4.md'
+    - 'Этикетки для косметики': 'type_of_production/5.md'
+    - 'Упаковка для сухофруктов': 'type_of_production/6.md'
   - 'Виды отделки':
     - 'Тиснение': 'types_of_finishing/1.md'
     - 'Выборочное УФ лакирование': 'types_of_finishing/2.md'
@@ -51,13 +53,15 @@ markdown_extensions:
 
 
 theme:
+  logo: logo.png
+  favicon: img/favicon.svg
   name: material
   custom_dir: overrides
   language: ru
   font:
     text: Roboto
   palette:
-    primary: indigo
+    primary: indig
   features:
     # - navigation.expand
     # - navigation.top
