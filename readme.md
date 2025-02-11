@@ -1,59 +1,20 @@
+# Buystickers статический сайт на MKDocks
+Документация к статическому генератору [mkdocs.org](https://www.mkdocs.org).
 
-
-
-
-
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Links
-https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration-other
-https://fontawesome.com/search?o=r&m=free
-
-# Commands
+# Команды
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
+  
+## Полезные ссылки
+https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration-other
+https://fontawesome.com/search?o=r&m=free
 
 # Icons
 https://fontawesome.com/icons/cart-shopping?f=classic&s=solid
 https://primer.style/foundations/icons
 https://simpleicons.org/
-
-
-## Project layoutasdas
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-## Project layoutasdas
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.asd
-
-
-## To-do
-1. Почта, какая будет? Туда и форма будет отсылаться и калькулятор и макеты
-2. Спросить про аналитику и метрику, попросить прислать файл и скрипт
-3. Форма обратной связи оставить простую или сделать как калькулятор заказа, вот примеры: 
-
-    https://digital-printing.ru/prints/stickers
-
-    https://pappermint.ru/nakleiki-pechat
-
-4. Фавикон
-5. Лого
-6. Нужно ли вставлять видео, если нужно то какое?
-7. Номер телефона и номер ватсап +7 (910) 333-11-55 этот?
-8. Адрес - г. Москва, ул.Колодезная д.5 такой?
-
 
 <!-- [:material-phone: Позвонить и заказать печать]( tel:+79103331155 ){ .md-button .md-button--primary } -->
 
